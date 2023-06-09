@@ -1,0 +1,11 @@
+name: My Action
+description: A description of my GitHub Action
+inputs:
+  input1:
+    description: Description of input1
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Run Bash Script
+      run: bash testaction.sh
