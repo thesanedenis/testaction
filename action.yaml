@@ -7,5 +7,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Run Bash Script
-      run: bash testaction.sh
+    - name: Test echo 
+      run: |
+        # My action
+        echo "Hello, world!"
