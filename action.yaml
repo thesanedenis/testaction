@@ -8,6 +8,7 @@ runs:
   using: "composite"
   steps:
     - name: Test echo 
+      shell: bash
       run: |
         # My action
         echo "Hello, world!"
